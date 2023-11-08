@@ -21,20 +21,20 @@ body {
     font-weight: 400;
 }
 
-    .principal {
-        background-image: url("../assets/Background.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        align-items: center;
-        text-align: center;
-    }
-
     .container {
         height: 100vh;
         display: grid;
         grid-template-columns: 50% 50%;
         /* margin-top: 7.8em;
         margin-left: 3.4em; */
+    }
+
+    .principal {
+        background-image: url("../assets/Background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
     }
 
         .container__caixa {
@@ -73,3 +73,30 @@ body {
                     font-size: 0.75em;
                     color: var(--cinza-secundaria);
                 }
+    
+    .secundario {
+        align-items: center;
+        
+    }
+
+        .secundario__imagem {
+            width: 70%;
+            margin-left: 10.3em;
+        }
+
+        .secundario__descricao {
+            font-family: var(--fonte-principal);
+            margin-right: 7.5em;
+        }
+
+            .secundario__descricao__titulo {
+                font-size: 3em;
+                font-weight: 700;
+            }
+
+            .secundario__descricao__paragrafo {
+                font-size: 1em;
+                font-weight: 400;
+                margin-top: 0.5em;
+                color: var(--branco-alternativa);
+            }
