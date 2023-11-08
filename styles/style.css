@@ -19,4 +19,9 @@ body {
 
 .principal {
     background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
 }
