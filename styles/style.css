@@ -17,7 +17,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-primaria);
     font-family: var(--fonte-principal);
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -25,8 +25,8 @@ body {
         height: 100vh;
         display: grid;
         grid-template-columns: 50% 50%;
-        /* margin-top: 7.8em;
-        margin-left: 3.4em; */
+        /* margin-top: 7.8rem;
+        margin-left: 3.4rem; */
     }
 
     .principal {
@@ -38,16 +38,16 @@ body {
     }
 
         .container__caixa {
-            margin: 0 3.4em;
+            margin: 0 3.4rem;
         }
 
             .container__caixa__titulo {
-                font-size: 1.75em;
+                font-size: 1.75rem;
                 font-weight: 700;
             }
 
             .container__caixa__bloco {
-                margin: 0 2.4em;
+                margin: 0 2.4rem;
             }
 
                 .container__caixa__bloco__imagem {
@@ -57,11 +57,11 @@ body {
                 .container__caixa__bloco__botao {
                     background-color: var(--botao-azul);
                     border-radius: 8px;
-                    padding: 1em;
+                    padding: 1rem;
                     color: var(--branco-primaria);
                     display: block;
                     text-decoration: none;
-                    margin-bottom: 1em;
+                    margin-bottom: 1rem;
                 }
 
                 .botao_secundario {
@@ -70,33 +70,55 @@ body {
                 }
 
                 .container__caixa__bloco__aviso {
-                    font-size: 0.75em;
+                    font-size: 0.75rem;
                     color: var(--cinza-secundaria);
                 }
     
     .secundario {
         align-items: center;
-        
     }
 
         .secundario__imagem {
             width: 70%;
-            margin-left: 10.3em;
+            margin-left: 10.3rem;
         }
 
         .secundario__descricao {
-            font-family: var(--fonte-principal);
-            margin-right: 7.5em;
+            margin-right: 7.5rem;
+            margin-left: 0.75rem;
+            text-align: justify;
+            font-style: normal;            
         }
 
             .secundario__descricao__titulo {
-                font-size: 3em;
+                font-size: 3rem;
                 font-weight: 700;
+                line-height: 1.2em;
             }
 
             .secundario__descricao__paragrafo {
-                font-size: 1em;
-                font-weight: 400;
-                margin-top: 0.5em;
+                margin-top: 0.5rem;
                 color: var(--branco-alternativa);
+                line-height: 1.5em;
+                opacity: 80%;
             }
+
+            .secundario__botao {
+                display: inline-block;
+                margin-top: 1rem;
+            }
+
+        .descricao__dois {
+            margin-left: 7.5rem;
+            margin-right: 0.75rem;
+        }
+        
+        .imagem__dois {
+            margin-left: 3.6rem;
+            margin-right: 10.4rem;
+        }
+
+        .imagem__tres {
+            margin-left: 8.8rem;
+            width: 75%;
+        }
