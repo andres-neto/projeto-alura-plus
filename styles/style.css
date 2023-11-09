@@ -6,6 +6,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter', sans-serif;
+    --botao-azul-efeito: #69c1f5;
 }
 
 * {
@@ -64,6 +65,11 @@ body {
                     margin-bottom: 1rem;
                 }
 
+                    .container__caixa__bloco__botao:hover {
+                        background-color: var(--botao-azul-efeito);
+                        color: var(--cor-de-fundo);
+                    }
+
                 .botao_secundario {
                     background-color: transparent;
                     border: 1px solid var(--branco-primaria);
@@ -76,6 +82,7 @@ body {
     
     .secundario {
         align-items: center;
+        height: 80vh;
     }
 
         .secundario__imagem {
@@ -121,4 +128,64 @@ body {
         .imagem__tres {
             margin-left: 8.8rem;
             width: 75%;
+        }
+    
+    .dispositivos {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;           
+        display: flex;
+        flex-direction: column;
+        margin-top: 8.5rem;
+        gap: 2.5rem;
+    }
+
+        .dispositivos__titulo {
+            font-size: 3rem;
+            line-height: 1.2em; 
+        }
+
+        .dispositivos__lista {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            gap: 4.25rem;
+        }
+
+            .dispositivos__lista__item {
+                font-size: 2rem;
+                line-height: 1.2em; 
+                margin-top: 1rem;
+            }
+
+    .rodape {
+        line-height: 1.5em;
+        text-align: center;
+        margin: 9rem 8.4% 6.25rem; 
+    }
+
+        .rodape__lista {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            list-style-type: none;
+            margin: 2.5rem 2.3rem 1.5rem;
+        }
+
+        .rodape__lista__link {
+            text-decoration: none;
+            color: var(--branco-primaria);
+        }
+
+            .rodape__lista__link:hover {
+                color: var(--botao-azul);
+            }
+
+            .rodape__lista__link:active {
+                color: purple;
+            }
+
+        .rodape__texto {
+            font-size: 0.88rem;
+            color: var(--cinza-secundaria);            
         }
